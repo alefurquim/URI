@@ -1,0 +1,21 @@
+//* LIVRARIAS
+ 
+#include <stdio.h>
+#include <stdlib.h>
+ 
+main()
+{
+    //*VARIAVEIS
+    int A;
+//*FUNÇÃO WHILE (ENQUANTO) COM A FUNÇÃO EOF (FIM DE ARQUIVO)
+    while(scanf("%i", &A) != EOF){
+//*SE A RECEBE 0 IMPRIME "VAI TER COPA"
+        if(A == 0){
+            printf("vai ter copa!\n");
+            //* SE A RECEBE OUTRO VALOR IMPRIME "VAI TER DUAS"
+       }else{
+            printf("vai ter duas!\n");
+        }
+    }
+    return 0;
+}
